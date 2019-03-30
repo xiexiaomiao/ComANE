@@ -22,4 +22,5 @@ The output node embeddings are saved in the .embedding file.
 
 The learned node embeddings can be used for network visualization. Nodes in the network can be shown as matplotlib scatter after reduce the dimension of  embeddings to 2d by using t-sne package. Nodes similar with each other will also close in embedding space. There is an example as follow:
 
-![](D:\Downloads\come.jpeg)
+![image](https://github.com/xiexiaomiao/comunity_detection/tree/master/img/come.jpeg)
+
