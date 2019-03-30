@@ -1,14 +1,14 @@
 class Config:
     def __init__(self):
         # load data
-        self.edge_file = 'graph/cora.edgelist'
-        self.feature_file = 'graph/cora.feature'
-        self.label_file = 'graph/cora.label'
+        self.path = 'graph/cora'
+        self.edge_file = self.path + 'cora.edgelist'
+        self.feature_file = self.path + 'cora.feature'
+        self.label_file = self.path + 'cora.label'
         self.direct = False
         # parameters for similarity
         self.num_hop = 7
         self.alpha = 0.5
-        self.mode = 'neighbor'
         # parameters for clustering
         self.k = 7
 
