@@ -1,5 +1,7 @@
 # community_detection
 
+implement a algorithm which represent each node in the network as a low-dimension vector and then clustering on the learned nodes representations to detect the communities.
+
 ## graph data format
 
 Every network dataset need include three files:
@@ -10,8 +12,11 @@ Every network dataset need include three files:
 
 ## model parameters configuration
 
-Tuning the model parameters in config.py
+Tuning the model parameters in config.py.
 
 ## output
 
+The output node embeddings are saved in the .embedding file.
+
 ## visualization
+
