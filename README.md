@@ -1,6 +1,6 @@
-# community_detection
+community_detection
 
-implement a algorithm which represent each node in the network as a low-dimension vector and then clustering on the learned nodes representations to detect the communities.
+implement a algorithm which represent each node in the network as a low-dimension vector and then clustering on the learned nodes representations to detect the communities. 
 
 ## graph data format
 
@@ -20,3 +20,6 @@ The output node embeddings are saved in the .embedding file.
 
 ## visualization
 
+The learned node embeddings can be used for network visualization. Nodes in the network can be shown as matplotlib scatter after reduce the dimension of  embeddings to 2d by using t-sne package. Nodes similar with each other will also close in embedding space. There is an example as follow:
+
+![](D:\Downloads\come.jpeg)
